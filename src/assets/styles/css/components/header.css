@@ -1,0 +1,7 @@
+@import url(../var/variaveis.css);
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: var(--bg-header);
+}

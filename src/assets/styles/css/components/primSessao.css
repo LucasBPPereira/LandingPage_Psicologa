@@ -1,0 +1,87 @@
+@import url(../var/variaveis.css);
+
+.ps__titulo {
+    font-family: var(--texto-Poppins);
+    font-size: 38px;
+    color: var(--texto-cor-bold);
+}
+
+.container__pSessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pSessao__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pSessao__cards .card__item {
+    background-color: var(--bg-card-p-sessao);
+    max-width: 380px;
+    border-radius: 5px;
+    padding: 18px 30px 18px 13px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 4px 4px var(--bg-card-p-sessao-fundo);
+}
+
+.item__session {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__item h3 {
+    margin-top: 2px;
+    font-family: var(--texto-Poppins);
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--texto-cor-bold);
+}
+
+.card__item p {
+    font-family: var(--texto-Poppins);
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 286px;
+}
+
+.num_espaco {
+    width: 44px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: var(--texto-cor-branco);
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.num_espaco span {
+    font-family: var(--texto-Poppins);
+    font-size: 20px;
+    color: var(--texto-cor-suave-f);
+}
+
+.pSessao__cards span img {
+    display: none;
+}
+
+
+.container_grid__img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.priImg, .segImg {
+    margin: 20px auto 0 auto;
+    width: 159px;
+    height: 238px;
+}
+
+.treImg {
+    margin: auto;
+    width: 322px;
+    height: 214px;
+}

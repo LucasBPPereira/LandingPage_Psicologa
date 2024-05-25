@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+
+    /* Fontes: */
+--texto-Poppins: "Poppins", sans-serif;
+
+--texto-cor-preto: #000;
+--texto-cor-branco: #fff;
+--texto-cor-suave: #22AED1;
+--texto-cor-suave-f: #9C9C9C;
+--texto-cor-suave-m: #7F7F7F;
+--texto-cor-bold: #0C3D49;
+--texto-cor-frase: #1A839D;
+
+    /* Background */
+--bg-header: #E9F7FA;
+--bg-destaque: #FF7C1D;
+--bg-card: #fff;
+--bg-destaque-fundo: #FFB27D;
+--bg-card-p-sessao: #BAE6F1;
+--bg-card-p-sessao-fundo: #0C3D49;
+--bg-gradient: linear-gradient(90deg, #E9F7FA 55%, #BAE6F1 100);
+--bg-gradient-beneficios: linear-gradient(90deg, #EDEDED 0%, #E0E0E0 100%);
+
+    /* Borda */
+--bd-cor-card: #1A839D;
+}
+
+

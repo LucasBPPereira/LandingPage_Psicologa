@@ -1,0 +1,19 @@
+@import url(../var/variaveis.css);
+
+#atendimento {
+    background-color: linear-gradient(90deg, #E9F7FA 55%, #BAE6F1 100);
+    text-align: center;
+}
+
+#atendimento h2 {
+    font-family: var(--texto-Poppins);
+    font-size: 40px;
+    color: var(--texto-cor-bold);
+}
+
+#atendimento p {
+    font-family: var(--texto-Poppins);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--texto-cor-frase);
+}
