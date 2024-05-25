@@ -9,6 +9,7 @@
 @import url(css/components/primSessao.css);
 @import url(css/components/beneficios.css);
 @import url(css/components/localAtend.css);
+@import url(css/components/footer.css);
 
 section {
     padding: 0  1.5625rem;

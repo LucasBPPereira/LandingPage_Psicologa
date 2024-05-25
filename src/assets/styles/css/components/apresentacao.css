@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   gap: 2px;
-  margin: auto;
+  margin: auto auto 20px auto;
 }
 
 .btn__video > p {
