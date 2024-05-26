@@ -2,7 +2,7 @@
 
 .ps__titulo {
     font-family: var(--texto-Poppins);
-    font-size: 38px;
+    font-size: clamp(2rem, 9vw, 2.375rem);
     color: var(--texto-cor-bold);
     text-align: center;
 }

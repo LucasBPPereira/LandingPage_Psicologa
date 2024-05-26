@@ -9,7 +9,7 @@
 
 #atendimento h2 {
     font-family: var(--texto-Poppins);
-    font-size: 40px;
+    font-size: clamp(2rem, 9vw, 2.5rem);
     color: var(--texto-cor-bold);
 }
 

@@ -7,8 +7,9 @@
 
 .busca__titulo {
     font-family: var(--texto-Poppins);
-    font-size: 38px;
+    font-size: clamp(2rem, 9vw, 2.375rem);
     color: var(--texto-cor-bold);
+    text-align: center;
 }
 
 .container__card {
@@ -47,11 +48,12 @@
 .btn-buscar {
     font-weight: 800;
     font-size: 24px;
-    margin: 6.25rem auto 40px auto;
+    margin: 60px auto 40px auto;
     padding: 8px 16px;
     border-radius: 10px 10px 10px 0;
     box-shadow: 37px 19px 17px rgba(0, 0, 0, 0.01), 21px 11px 14px rgba(0, 0, 0, 0.05), 9px 5px 10px rgba(0, 0, 0, 0.09), 2px 1px 6px rgba(0, 0, 0, 0.1);
     width: 270px;
+    text-align: center;
 }
 
 .psicologa {

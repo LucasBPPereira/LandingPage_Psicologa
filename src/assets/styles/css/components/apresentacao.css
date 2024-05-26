@@ -5,17 +5,23 @@
   flex-direction: column;
 }
 
+#apresentacao {
+  text-align: center;
+}
+
 #apresentacao > img {
-  width: 380px;
-  height: 26.5094rem;
+  width: 21.25rem;
+  height: 23.7188rem;
+  text-align: center;
 }
 
 .apresentacao__titulo {
   font-family: var(--texto-Poppins);
-  font-size: 40px;
+  font-size: clamp(2rem, 7vw, 2.5rem);
   font-weight: 800;
   color: var(--texto-cor-preto);
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .apresentacao__titulo > span {
@@ -28,6 +34,7 @@
   font-weight: 800;
   color: var(--texto-cor-frase);
   margin: 35px 0 20px 0;
+  text-align: left;
 }
 
 .apresentacao__subtitulo > span {
@@ -41,6 +48,7 @@
   font-weight: 300;
   color: var(--texto-cor-suave-m);
   margin: 0 0 50px 0;
+  text-align: left;
 }
 
 .btn-apresentacao {
