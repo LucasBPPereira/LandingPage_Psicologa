@@ -1,15 +1,15 @@
 @import url(../var/variaveis.css);
 
+.apresentacao_pad_mar {
+  text-align: center;
+}
+
 .container_apresentacao {
   display: flex;
   flex-direction: column;
 }
 
-#apresentacao {
-  text-align: center;
-}
-
-#apresentacao>img {
+.apresentacao_pad_mar>img {
   width: 21.25rem;
   height: 23.7188rem;
   text-align: center;
@@ -78,7 +78,14 @@
 
 @media screen and (min-width: 768px) {
   #apresentacao {
+    padding: 0 50px 50px 50px;
+  }
+
+  .apresentacao_pad_mar {
     display: flex;
+    flex-direction: row;
+    max-width: 770px;
+    margin: 0 auto;
   }
 
   .container_apresentacao {

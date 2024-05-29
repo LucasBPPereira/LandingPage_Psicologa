@@ -21,6 +21,11 @@
     color: var(--texto-cor-frase);
 }
 
+.ref-local_flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .referencias_atendimento {
     display: flex;
     flex-direction: column;
@@ -68,4 +73,15 @@
     padding: 8px 16px;
     background-color: var(--bg-destaque);
     box-shadow: 4px 4px 0 var(--bg-destaque-fundo);
+}
+
+
+@media screen and (min-width: 768px) {
+    .ref-local_flex {
+        margin: 2.5rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
