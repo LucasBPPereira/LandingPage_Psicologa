@@ -61,6 +61,12 @@
     margin-top: 25px;
     font-size: 20px;
     box-shadow: 4px 4px 0 var(--bg-card-p-sessao-fundo);
+    transition: all .8s ease-in;
+}
+
+.btn-beneficios:hover {
+    background-color: var(--bg-card-p-sessao-fundo);
+    box-shadow: 4px 4px 0 var(--bg-destaque);
 }
 
 .beneficios__img_decorativa {
@@ -73,5 +79,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .beneficios_card_container {
+        width: 55rem;
     }
 }

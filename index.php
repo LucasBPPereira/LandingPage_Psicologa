@@ -11,7 +11,13 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <a href="#primeiraSessao">Primeira vez?</a>
+            <a href="#beneficios">beneficios</a>
+            <a href="#atendimento">Local</a>
+        </nav>
+    </header>
     <section id="apresentacao">
         <div class="apresentacao_pad_mar">
             <img src="src/assets/img/psicologa-loira-bg-gr-azul.png"

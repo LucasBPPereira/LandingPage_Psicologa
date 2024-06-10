@@ -22,6 +22,7 @@
   color: var(--texto-cor-preto);
   margin-bottom: 20px;
   text-align: left;
+  max-width: 510px;
 }
 
 .apresentacao__titulo>span {
@@ -35,6 +36,7 @@
   color: var(--texto-cor-frase);
   margin: 35px 0 20px 0;
   text-align: left;
+  max-width: 358px;
 }
 
 .apresentacao__subtitulo>span {
@@ -59,6 +61,11 @@
   box-shadow: 37px 19px 17px rgba(0, 0, 0, 0.01), 21px 11px 14px rgba(0, 0, 0, 0.05), 9px 5px 10px rgba(0, 0, 0, 0.09), 2px 1px 6px rgba(0, 0, 0, 0.1);
   width: 270px;
   margin: 0 auto 20px auto;
+  transition: all .8s ease-in;
+}
+
+.btn-apresentacao:hover {
+  background-color: var(--bg-card-p-sessao-fundo);
 }
 
 .btn__video {
@@ -66,6 +73,10 @@
   align-items: center;
   gap: 2px;
   margin: auto auto 20px auto;
+}
+
+.btn__video:hover {
+  cursor: pointer;
 }
 
 .btn__video>p {

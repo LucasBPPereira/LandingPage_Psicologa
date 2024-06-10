@@ -24,6 +24,12 @@
 .ref-local_flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.ref-local_flex img {
+    width: 14.625rem;
+    height: 20.875rem;
 }
 
 .referencias_atendimento {
@@ -62,6 +68,7 @@
     width: 280px;
     font-size: 16px;
     color: var(--texto-cor-bold);
+    font-family: var(--texto-Poppins);
 }
 
 .btn-local {
@@ -73,6 +80,12 @@
     padding: 8px 16px;
     background-color: var(--bg-destaque);
     box-shadow: 4px 4px 0 var(--bg-destaque-fundo);
+    transition: all .8s ease-in;
+}
+
+.btn-local:hover {
+    background-color: var(--bg-card-p-sessao-fundo);
+    box-shadow: 4px 4px 0 var(--bd-cor-card);
 }
 
 

@@ -5,3 +5,11 @@ header {
   width: 100%;
   background-color: var(--bg-header);
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+  }
+}
