@@ -62,6 +62,8 @@
                             autoconhecimento e crescimento pessoal.</p>
                     </div>
                 </div>
+                <button id="antBtn"><</button>
+                <button id="proBtn">></button>
                 <a href="" class="btn__agenda btn-buscar">Agende sua sessão</a>
             </div>
             <div class="psicologa">
@@ -251,6 +253,7 @@
             </a>
         </div>
     </footer>
+    <script src="src/assets/js/slider.js"></script>
 </body>
 
 </html>

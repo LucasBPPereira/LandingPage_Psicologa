@@ -3,6 +3,9 @@
 #buscaPsicologa {
     padding-top: 2cqh;
     background: linear-gradient(90deg, #E9F7FA 55%, #BAE6F1 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .busca__titulo {
@@ -16,13 +19,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
 }
 
 #card__slider {
     display: flex;
-    gap: 1.25rem;
-    overflow: scroll;
-    width: 340px;
+    gap: 40px;
+    transition: transform 0.5s ease;
 }
 
 .card_buscar {
@@ -30,7 +36,11 @@
     background-color: var(--bg-card);
     padding: 25px 25px 25px 20px;
     border-radius: 15px;
-    width: 300px;
+    min-width: 80%;
+}
+
+.card_buscar:nth-of-type(1) {
+    margin-left: 20px;
 }
 
 .buscar__descricao {
@@ -70,10 +80,24 @@
     height: 490px;
 }
 
-/* Rectangle 13 */
-
-@media screen and (min-width: 768px) {
-    #card__slider {
-        width: 700px;
-    }
+#antBtn, #proBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(160%);
+    padding: 10px 20px;
+    background-color: var(--bd-cor-card);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
+
+#proBtn {
+    right: 50px;
+}
+
+#antBtn {
+    left: 50px;
+}
+
+/* Rectangle 13 */
