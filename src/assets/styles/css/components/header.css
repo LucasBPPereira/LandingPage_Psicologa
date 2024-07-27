@@ -4,7 +4,32 @@ header {
   height: 80px;
   width: 100%;
   background-color: var(--bg-header);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--texto-Poppins);
+  color: var(--texto-cor-bold);
+  transition: all .5s ease;
+  border-bottom: solid 1px #000;
+  border-width: 0%;
+}
+
+nav a::before {
+}
+
+nav a::after:hover {
+  border-width: 100%;
+}
+
 
 @media screen and (min-width: 1024px) {
   header {
